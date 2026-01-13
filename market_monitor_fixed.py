@@ -21,7 +21,7 @@ import os
 
 GMAIL_USER = os.getenv("GMAIL_USER", "jhb4735@gmail.com")
 GMAIL_PASSWORD = os.getenv("GMAIL_PASSWORD", "zzsa ejlr xnbp wspc")
-RECIPIENT_EMAIL = os.getenv("RECIPIENT_EMAIL", "jhb4735@gmail.com")
+RECIPIENT_EMAIL = os.getenv("RECIPIENT_EMAIL", "wjsgudqo89@gmail.com")
 
 SYMBOLS = {
     'S&P500': '^GSPC',
