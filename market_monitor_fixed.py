@@ -17,9 +17,11 @@ import traceback
 
 # ============ 설정 섹션 (여기만 수정하면 됨) ============
 
-GMAIL_USER = "jhb4735@gmail.com"  # 본인 Gmail 주소 입력
-GMAIL_PASSWORD = "zzsa ejlr xnbp wspc"  # Gmail 앱 비밀번호 입력 (계정 비번 X)
-RECIPIENT_EMAIL = "jhb4735@gmail.com"  # 받을 이메일 주소
+import os
+
+GMAIL_USER = os.getenv("GMAIL_USER", "jhb4735@gmail.com")
+GMAIL_PASSWORD = os.getenv("GMAIL_PASSWORD", "zzsa ejlr xnbp wspc")
+RECIPIENT_EMAIL = os.getenv("RECIPIENT_EMAIL", "jhb4735@gmail.com")
 
 SYMBOLS = {
     'S&P500': '^GSPC',
